@@ -1,0 +1,64 @@
+[
+    {
+        "browserstack": true,
+        "desired_capabilities": {
+            "browserName": "Chrome",
+            "bstack:options": {
+                "os": "Windows",
+                "osVersion": "10",
+                "browserVersion": "120.0",
+                "consoleLogs": "info",
+                "buildName": "browserStackBuild"
+            }
+        }
+    },
+    {
+        "browserstack": true,
+        "desired_capabilities": {
+            "browserName": "Chrome",
+            "bstack:options": {
+                "osVersion": "13.0",
+                "deviceName": "Samsung Galaxy S23",
+                "consoleLogs": "info",
+                "buildName": "browserStackBuild"
+            }
+        }
+    },
+    {
+        "browserstack": true,
+        "desired_capabilities": {
+            "browserName": "Edge",
+            "bstack:options": {
+                "os": "Windows",
+                "osVersion": "11",
+                "browserVersion": "latest",
+                "buildName": "browserStackBuild"
+            }
+        }
+    },
+    {
+        "browserstack": true,
+        "desired_capabilities": {
+            "browserName": "Firefox",
+            "bstack:options": {
+                "os": "Windows",
+                "osVersion": "11",
+                "browserVersion": "latest",
+                "buildName": "browserStackBuild"
+            }
+        }
+    },
+    {
+        "browserstack": true,
+        "desired_capabilities": {
+            "browserName": "Chrome",
+            "bstack:options": {
+                "os": "OS X",
+                "osVersion": "Ventura",
+                "browserVersion": "130.0",
+                "consoleLogs": "info",
+                "buildName": "browserStackBuild"
+            }
+        }
+    }
+]
